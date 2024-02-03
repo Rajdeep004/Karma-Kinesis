@@ -51,7 +51,6 @@
     .lft-input{
         @apply flex flex-col gap-[4vh] w-[50%] 
     }
-
     input{
         @apply px-[1.5vw] py-[1.5vh] w-[90%] border-[1px] rounded-[30px] text-[110%] border-gray-300 bg-gray-100
     }
