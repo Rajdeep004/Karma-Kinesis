@@ -1,6 +1,4 @@
-<script setup>
 
-</script>
 
 <template>
     <section id="hero">
@@ -16,7 +14,10 @@
                 <p>&#9679;</p>
             </div>
             <div class="rght-btn">
-                Yaha icons aayege 
+                <Icon name="bxl:facebook" class="icon"/> 
+                <Icon name="bxl:instagram-alt" class="icon"/>
+                <Icon name="bxl:linkedin-square" class="icon"/>
+                <Icon name="bxl:twitter" class="icon"/>
             </div>
         </div>
     </section>
@@ -31,7 +32,7 @@
 
     }
     h3{
-        font-size: 3vw;
+        font-size: 2.5vw;
         position: absolute;
         bottom: 75%;
     }
@@ -54,8 +55,10 @@
         color: black;
     }
     .rght-btn{
-        @apply  w-[40%] h-full flex justify-center items-center
+        @apply  w-[40%] h-full flex justify-center items-center gap-[1vw]
     }
-
-
+    .icon{
+        @apply text-[3vw] rounded-full border-black border-opacity-[60%] border-2 px-[0.7vw] py-[0.7vh] text-[#656565]
+    }
+   
 </style>

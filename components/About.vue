@@ -33,47 +33,5 @@
 </template>
 
 <style lang="postcss" scoped>
-    #about{
-        @apply w-full h-[100vh] mt-[10vh] border-t-2 border-[#cacaca] 
-    }
-    .top{
-        @apply  flex flex-col text-center mt-[8vh]
-    }
-    h1{
-        @apply text-[1.7vw]
-    }
-    h2{
-        @apply text-[1vw] 
-    }
-
-    .top h1{
-        @apply text-[2vw]
-    }
-    .top h2{
-        @apply text-[1.5vw];
-    }
-    .btm{
-        @apply  w-full h-[81vh] flex
-    }
-    .lft-btm{
-        @apply w-[50%] h-full  flex justify-center items-center
-    }
-    .lft-btm img{
-        @apply h-full w-auto mb-[15%]
-    }
-    .rght-btm{
-        @apply h-full w-[50%]  
-    }
-    .top-rght-btm{
-        @apply w-full h-[33.3%]  flex gap-[3vw] justify-center items-end
-    }
-    .cntr-rght-btm{
-        @apply w-full h-[33.3%]  flex gap-[3vw] justify-center items-center
-    }
-    .btm-rght-btm{
-        @apply w-full h-[33.3%]  flex gap-[3vw] justify-center items-start
-    }
-    .two{
-        @apply w-[50%]
-    }
+    
 </style>

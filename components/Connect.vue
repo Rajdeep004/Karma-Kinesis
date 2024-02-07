@@ -30,7 +30,7 @@
 
 <style lang="postcss" scoped>
     #connect{
-        @apply w-full h-[100vh] mt-[10vh] border-t-2 border-[#cacaca] flex items-center 
+        @apply w-full h-[100vh] mt-[5vh] border-t-2 border-[#cacaca] flex items-center 
     }
     form{
         @apply w-[50%] h-[80%] ml-[10vw] flex flex-col gap-[5vh]  mt-[5vh]
@@ -58,7 +58,7 @@
       @apply flex flex-col gap-[4vh] w-[50%] 
     }
     .msg{
-        @apply   mt-[10vh] px-[2vw] flex items-center
+        @apply px-[1vw] flex items-center
     }
     textarea{
         @apply resize-none w-[100%] px-[2vw] py-[2vh] text-[1.1vw] h-[30vh] bg-gray-100 rounded-[10px] border-[1px] border-gray-300 text-gray-400

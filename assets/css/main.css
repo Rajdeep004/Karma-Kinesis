@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'source-sans';
+    src: url(../fonts/source_sans_pro.ttf);
+}
+
+*{
+    font-family: 'source-sans';
+}
