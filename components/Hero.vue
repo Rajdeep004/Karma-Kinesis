@@ -1,64 +1,25 @@
 
 
 <template>
-    <section id="hero">
-        <div class="txt">
-            <h3>Let your <span>KARMA</span> be in motion</h3>
-            <h1>KARMA KINESIS</h1>
+    <section class="container mx-auto p-5 flex mt-4 lg:mt-10 flex-col items-center">
+        <div class="">
+            <h2 class="text-2xl lg:text-4xl">Let your KARMA be in motion</h2>
+            <h1 class="text-[5rem]  font-black leading-[1] bg-gradient-to-r  from-[#4AD75B] to-[#38AD2F] text-transparent bg-clip-text lg:text-[11rem]">KARMA KINESIS</h1>
         </div>
-        <img src="/img/ffb62e0854eb1ba594e56725937f119d.png" alt="girl yoga">
-        <div class="btns">
-            <div class="lft-btn">
-                <p>&#9679;</p>
-                <p>&#9679;</p>
-                <p>&#9679;</p>
+        <div class="flex w-full justify-between mt-16 lg:mt-48 items-center">
+            <div class="hidden lg:block  space-x-1 ">
+                <Icon name="prime:circle-fill" class="text-xl"/>
+                <Icon name="prime:circle-fill" class="text-[#969696] text-xl"/>
+                <Icon name="prime:circle-fill" class="text-[#969696] text-xl"/>
             </div>
-            <div class="rght-btn">
-                <Icon name="bxl:facebook" class="icon"/> 
-                <Icon name="bxl:instagram-alt" class="icon"/>
-                <Icon name="bxl:linkedin-square" class="icon"/>
-                <Icon name="bxl:twitter" class="icon"/>
+            <div class="items-end flex space-x-2">
+                <Icon name="bxl:facebook" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
+                <Icon name="bxl:instagram" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
+                <Icon name="bxl:linkedin-square" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
+                <Icon name="bxl:twitter" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
             </div>
         </div>
     </section>
 </template>
 
-<style lang="postcss" scoped>
-    #hero{
-        @apply w-full  h-[90vh] flex flex-col items-center relative;
-    }
-    .txt{
-        @apply  relative mt-[10vh]
-
-    }
-    h3{
-        font-size: 2.5vw;
-        position: absolute;
-        bottom: 75%;
-    }
-    span{
-        font-style: italic;
-    }
-    h1{
-        @apply bg-gradient-to-r from-[#4AD75B] to-[#38AD2F] text-[10vw] text-transparent bg-clip-text font-semibold;
-    }
-    img{
-        @apply  w-[75vw] h-[94vh] absolute right-[15vw]
-    }
-    .btns{
-        @apply w-full h-[10vh] absolute top-[80vh] flex justify-between
-    }
-    .lft-btn{
-        @apply  w-[30%] h-full flex gap-2 text-[120%] justify-center items-center text-[#969696]
-    }
-    .lft-btn :nth-child(1){
-        color: black;
-    }
-    .rght-btn{
-        @apply  w-[40%] h-full flex justify-center items-center gap-[1vw]
-    }
-    .icon{
-        @apply text-[3vw] rounded-full border-black border-opacity-[60%] border-2 px-[0.7vw] py-[0.7vh] text-[#656565]
-    }
-   
-</style>
+<style lang="postcss" scoped></style>
