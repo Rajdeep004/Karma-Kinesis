@@ -1,20 +1,40 @@
 <script setup>
+    defineProps({
+        title: String,
+        content: String,
+        image: String
+    })
+
     const isActive = ref(false)
     const toggle = () => {
-        isActive.value=!isActive.value
+        isActive.value = !isActive.value
     }
 </script>
 
 
 
 <template>
-    <div class="min-h-[730px] w-full rounded-[70px] flex justify-center" style="background-image:url(/img/yoga1.jpg); background-position: center; background-size: cover;">
-        <div class="flex w-full rounded-[70px] flex-col justify-between" :class="isActive? 'bg-black/60':''">
-            <div class="flex flex-col text-white justify-center items-center self-start">
-                <h1 class="">Yoga & Power Yoga</h1>
-                <p class="w-11/12">Yoga harmonizes mind and body; Power Yoga intensifies it with a focus on strength and flexibility Yoga harmonizes mind and body; Power Yoga intensifies it with a focus on strength and flexibility</p>
+    <div 
+        class="min-h-[70vh]  w-full rounded-[70px] flex justify-center bg-cover bg-center" 
+        :style="{backgroundImage: `url(${image})`}"
+    >
+        <div 
+            class="flex w-full rounded-[70px] text-white transition-all ease-out duration-"
+            :class="isActive? 'bg-black/60 flex-col justify-between items-center' : 'justify-center' "
+        >
+            <div
+                v-show="isActive" 
+                class="self-start m-8 space-y-2"
+            >
+                <h1 class="text-3xl">{{title}}</h1>
+                <p class="">{{ content }}</p>
             </div>
-            <button @click="toggle" class="text-white text-4xl border-4 border-[#3CB333] py-2 mb-5 rounded-3xl">Yoga & Power Yoga</button>
+            <button 
+                @click="toggle" 
+                class="text-3xl border-4 border-[#3CB333] py-4 w-4/5 mb-5 rounded-3xl bg-black/10"
+                :class="isActive? 'justify-self-end' : 'self-end' "
+                v-text="isActive? 'Explore Now' : title"
+            ></button>
         </div>
     </div>
 </template>
