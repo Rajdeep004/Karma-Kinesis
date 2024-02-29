@@ -8,7 +8,7 @@ const navigation = [
 </script>
 
 <template>
-    <section id="footer" class="bg-[#3CB333] text-white max-h-[50vh] overflow-hidden">
+    <section id="footer" class="bg-[#3CB333] text-white h-full lg:max-h-[50vh] overflow-hidden">
         <div class="container mx-auto flex flex-col lg:flex-row gap-8 lg:gap-36 p-8 lg:p-24">
             <!-- Logo  -->
             <a href="#"><img src="/img/white kk.svg" alt="KK Logo White" class="text-xl" /></a>
