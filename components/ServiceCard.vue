@@ -30,9 +30,10 @@
                 <p class="">{{ content }}</p>
             </div>
             <button 
-                @click="toggle" 
-                class="text-3xl border-4 border-[#3CB333] py-4 w-4/5 mb-5 rounded-3xl bg-black/10"
-                :class="isActive? 'justify-self-end' : 'self-end' "
+                @mouseover="isActive = true"
+                @mouseleave="isActive = false"
+                class="text-3xl py-4 w-4/5 mb-5 rounded-full bg-black/10 transition-all ease-in duration-150"
+                :class="isActive? 'justify-self-end border-4 border-[#3CB333]' : 'self-end bg-[#3CB333] border-white border-2' "
                 v-text="isActive? 'Explore Now' : title"
             ></button>
         </div>

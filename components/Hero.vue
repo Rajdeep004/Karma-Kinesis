@@ -13,10 +13,10 @@
                 <Icon name="prime:circle-fill" class="text-[#969696] text-xl"/>
             </div>
             <div class="items-end flex space-x-2">
-                <Icon name="bxl:facebook" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
-                <Icon name="bxl:instagram" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
-                <Icon name="bxl:linkedin-square" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
-                <Icon name="bxl:twitter" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2"/>
+                <Icon name="bxl:facebook" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2 hover:bg-[#3CB333] hover:border-[#3CB333] hover:text-white transition-colors ease-in"/>
+                <Icon name="bxl:instagram" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2 hover:bg-[#3CB333] hover:border-[#3CB333] hover:text-white transition-colors ease-in"/>
+                <Icon name="bxl:linkedin-square" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2 hover:bg-[#3CB333] hover:border-[#3CB333] hover:text-white transition-colors ease-in"/>
+                <Icon name="bxl:twitter" class="text-4xl lg:text-5xl rounded-full border-2 border-black p-2 hover:bg-[#3CB333] hover:border-[#3CB333] hover:text-white transition-colors ease-in"/>
             </div>
         </div>
     </section>
