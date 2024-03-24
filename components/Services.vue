@@ -23,7 +23,7 @@ const serviceList = [
         <h1 class="text-center mt-10 text-2xl lg:text-4xl font-light">Breathe, Stretch, and Welcome</h1>
         <h2 class="text-center text-xl lg:text-2xl font-light">Let your KARMA in motion</h2>
         <div 
-            class="flex flex-col lg:flex-row gap-8 p-5 lg:m-10"
+            class="grid md:grid-cols-2 lg:grid-cols-3 justify-items- gap-8 p-5 lg:m-10"
         >
             <ServiceCard 
                 v-for="service in serviceList"
@@ -35,7 +35,3 @@ const serviceList = [
     </section>
     <h6 class="text-center text-xl lg:text-2xl font-light underline"><a href=""> Explore More Services </a></h6>
 </template>
-
-<style lang="postcss" scoped>
-    
-</style>
